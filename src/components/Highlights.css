@@ -1,0 +1,48 @@
+.highlights {
+  width: 70%;
+  min-height: 100vh;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.header h1 {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.weather-card {
+  width: 270px;
+  height: 180px;
+  border-radius: 20px;
+  margin: 28px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  background: #fff;
+  box-shadow: 0px 0px 26px 0px rgba(138, 122, 122, 0.3);
+}
+.title {
+  color: #c1b4b4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.value {
+  color: #000;
+  margin: 10px 0;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
