@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SkyWatch/static/css/main.30c546d2.css",
-    "main.js": "/SkyWatch/static/js/main.7d63982a.js",
+    "main.js": "/SkyWatch/static/js/main.1a5e023b.js",
     "static/js/787.c85c0077.chunk.js": "/SkyWatch/static/js/787.c85c0077.chunk.js",
     "static/media/Montserrat-Italic.ttf": "/SkyWatch/static/media/Montserrat-Italic.58b98b5c47cf787cd97a.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/SkyWatch/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
@@ -15,11 +15,11 @@
     "static/media/city.jpg": "/SkyWatch/static/media/city.6dc733aeef8ffa5164ce.jpg",
     "index.html": "/SkyWatch/index.html",
     "main.30c546d2.css.map": "/SkyWatch/static/css/main.30c546d2.css.map",
-    "main.7d63982a.js.map": "/SkyWatch/static/js/main.7d63982a.js.map",
+    "main.1a5e023b.js.map": "/SkyWatch/static/js/main.1a5e023b.js.map",
     "787.c85c0077.chunk.js.map": "/SkyWatch/static/js/787.c85c0077.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30c546d2.css",
-    "static/js/main.7d63982a.js"
+    "static/js/main.1a5e023b.js"
   ]
 }
