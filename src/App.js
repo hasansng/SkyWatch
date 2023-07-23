@@ -55,7 +55,10 @@ const App = () => {
       if (desc === "clear sky" && date.getHours() > 6 && date.getHours() < 19) {
         setIcon("assets/img/icon/sunny.png");
       }
-      if (desc === "clear sky" && date.getHours() > 19 && date.getHours() < 6) {
+      if (
+        desc === "clear sky" &&
+        (date.getHours() > 19) | (date.getHours() < 6)
+      ) {
         setIcon("assets/img/icon/moon.png");
       }
       if (
@@ -67,8 +70,7 @@ const App = () => {
       }
       if (
         desc === "few clouds" &&
-        date.getHours() > 19 &&
-        date.getHours() < 6
+        (date.getHours() > 19) | (date.getHours() < 6)
       ) {
         setIcon("assets/img/icon/few-clouds.png");
       }
@@ -81,8 +83,7 @@ const App = () => {
       }
       if (
         desc === "broken clouds" &&
-        date.getHours() > 19 &&
-        date.getHours() < 6
+        (date.getHours() > 19) | (date.getHours() < 6)
       ) {
         setIcon("assets/img/icon/moon.png");
       }
@@ -95,10 +96,23 @@ const App = () => {
       }
       if (
         desc === "broken clouds" &&
-        date.getHours() > 19 &&
-        date.getHours() < 6
+        (date.getHours() > 19) | (date.getHours() < 6)
       ) {
         setIcon("assets/img/icon/moon.png");
+      }
+
+      if (
+        desc === "scattered clouds" &&
+        date.getHours() > 6 &&
+        date.getHours() < 19
+      ) {
+        setIcon("assets/img/icon/sunny-cloud.png");
+      }
+      if (
+        desc === "scattered clouds" &&
+        (date.getHours() > 19) | (date.getHours() < 6)
+      ) {
+        setIcon("assets/img/icon/few-clouds.png");
       }
       setLoading(false);
     } catch (err) {
