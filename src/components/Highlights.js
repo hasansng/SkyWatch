@@ -12,7 +12,6 @@ const Highlights = () => {
       <div className="highlights">
         <div className="header">
           <h1>Today's Highlights</h1>
-          {/* <img src="assets/img/logo/logo.png" alt="logo" /> */}
         </div>
         <div className="box d-flex flex-wrap">
           {data.map((data) => (

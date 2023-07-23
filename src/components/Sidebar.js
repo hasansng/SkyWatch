@@ -12,7 +12,7 @@ const Sidebar = () => {
         <div className="form d-flex align-items-center">
           <button className="search-btn" onClick={search}>
             <img
-              src="/assets/img/icon/search.png"
+              src="assets/img/icon/search.png"
               alt="Search ICON"
               width={30}
               height={30}
