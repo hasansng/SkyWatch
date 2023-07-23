@@ -12,7 +12,7 @@ const Highlights = () => {
       <div className="highlights">
         <div className="header">
           <h1>Today's Highlights</h1>
-          <img src="assets/img/logo/logo.png" alt="logo" />
+          {/* <img src="assets/img/logo/logo.png" alt="logo" /> */}
         </div>
         <div className="box d-flex flex-wrap">
           {data.map((data) => (
@@ -39,7 +39,7 @@ const Highlights = () => {
           <img src="assets/img/logo/logo.png" alt="logo" />
         </div>
         <div className="box d-flex flex-wrap">
-        <div className="weather-card">
+          <div className="weather-card">
             <p className="title">Weather</p>
             <h1 className="value">{weather.weather[0].description}</h1>
           </div>
@@ -58,7 +58,7 @@ const Highlights = () => {
             <p className="title">Pressure</p>
             <h1 className="value">{`${weather.main.pressure} mbar`}</h1>
           </div>
-          
+
           <div className="weather-card">
             <p className="title">Rain</p>
             <h1 className="value">0mm</h1>

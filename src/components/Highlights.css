@@ -46,3 +46,18 @@
   font-weight: 500;
   line-height: normal;
 }
+@media only screen and (max-width: 1400px) {
+  .highlights {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-left: 0 !important;
+    align-items: center;
+  }
+  .header {
+    justify-content: center !important;
+  }
+  .box {
+    justify-content: center;
+  }
+}

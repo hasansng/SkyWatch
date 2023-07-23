@@ -7,6 +7,8 @@ import { getAllWeather } from "./Services/Service";
 //Context component for ContextAPI
 import { Context } from "./Context/Context";
 
+import "./App.css";
+
 const App = () => {
   const [weather, setWeather] = useState({});
   const [loading, setLoading] = useState(true);
