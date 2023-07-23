@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SkyWatch/static/css/main.e5a8065b.css",
+    "main.js": "/SkyWatch/static/js/main.9a752ef6.js",
+    "static/js/787.c85c0077.chunk.js": "/SkyWatch/static/js/787.c85c0077.chunk.js",
+    "static/media/Montserrat-Italic.ttf": "/SkyWatch/static/media/Montserrat-Italic.58b98b5c47cf787cd97a.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/SkyWatch/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-ExtraBold.ttf": "/SkyWatch/static/media/Montserrat-ExtraBold.3a9ee100617f45a96d92.ttf",
+    "static/media/Montserrat-Medium.ttf": "/SkyWatch/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Bold.ttf": "/SkyWatch/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Light.ttf": "/SkyWatch/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "static/media/Montserrat-Regular.ttf": "/SkyWatch/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Montserrat-Black.ttf": "/SkyWatch/static/media/Montserrat-Black.08437fd0aa82576d3678.ttf",
+    "static/media/Montserrat-ExtraLight.ttf": "/SkyWatch/static/media/Montserrat-ExtraLight.ef3c777f702c89a0f300.ttf",
+    "static/media/city.jpg": "/SkyWatch/static/media/city.6dc733aeef8ffa5164ce.jpg",
+    "index.html": "/SkyWatch/index.html",
+    "main.e5a8065b.css.map": "/SkyWatch/static/css/main.e5a8065b.css.map",
+    "main.9a752ef6.js.map": "/SkyWatch/static/js/main.9a752ef6.js.map",
+    "787.c85c0077.chunk.js.map": "/SkyWatch/static/js/787.c85c0077.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5a8065b.css",
+    "static/js/main.9a752ef6.js"
+  ]
+}
